@@ -21,7 +21,8 @@ Summary(zh_CN):	Search::Binary Perl Ä£¿é
 Name:		perl-Search-Binary
 Version:	0.95
 Release:	10
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b75a99c0dedd05cb455686fc547cc78f
@@ -47,7 +48,8 @@ Search::Binary - podstawowe wyszukiwanie binarne.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
