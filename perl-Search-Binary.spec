@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Search
 %define	pnam	Binary
-Summary:	Search-Binary perl module
-Summary(pl):	Modu³ perla Search-Binary
+Summary:	Search::Binary perl module
+Summary(pl):	Modu³ perla Search::Binary
 Name:		perl-Search-Binary
 Version:	0.95
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Search-Binary - generic binary search.
+Search::Binary - generic binary search.
 
 %description -l pl
-Search-Binary - podstawowe wyszukiwanie binarne.
+Search::Binary - podstawowe wyszukiwanie binarne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
