@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Search
 %define	pnam	Binary
-%include	/usr/lib/rpm/macros.perl
 Summary:	Search-Binary perl module
 Summary(pl):	Modu³ perla Search-Binary
 Name:		perl-Search-Binary
 Version:	0.95
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Search-Binary - generic binary search.
 Search-Binary - podstawowe wyszukiwanie binarne.
 
 %prep
-%setup -q -n Search-Binary-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
