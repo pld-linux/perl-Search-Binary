@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Search::Binary
 Summary(it):	Modulo di Perl Search::Binary
 Summary(ja):	Search::Binary Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Search::Binary ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Search::Binary
+Summary(nb):	Perlmodul Search::Binary
 Summary(pl):	Modu³ Perla Search::Binary
 Summary(pt):	Módulo de Perl Search::Binary
 Summary(pt_BR):	Módulo Perl Search::Binary
