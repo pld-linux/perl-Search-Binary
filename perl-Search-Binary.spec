@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Search
-%define	pnam	Binary
+%define		pdir	Search
+%define		pnam	Binary
 Summary:	Search::Binary Perl module
 Summary(cs):	Modul Search::Binary pro Perl
 Summary(da):	Perlmodul Search::Binary
