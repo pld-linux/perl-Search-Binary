@@ -3,7 +3,7 @@ Summary:	Search-Binary perl module
 Summary(pl):	Modu³ perla Search-Binary
 Name:		perl-Search-Binary
 Version:	0.95
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
