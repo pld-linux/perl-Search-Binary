@@ -39,7 +39,7 @@ Search::Binary - podstawowe wyszukiwanie binarne.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
