@@ -41,7 +41,7 @@ Search::Binary - podstawowe wyszukiwanie binarne.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
