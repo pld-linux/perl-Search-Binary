@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Search::Binary
 Summary(zh_CN):	Search::Binary Perl дё©И
 Name:		perl-Search-Binary
 Version:	0.95
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
