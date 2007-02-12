@@ -2,22 +2,22 @@
 %define		pdir	Search
 %define		pnam	Binary
 Summary:	Search::Binary Perl module
-Summary(cs):	Modul Search::Binary pro Perl
-Summary(da):	Perlmodul Search::Binary
-Summary(de):	Search::Binary Perl Modul
-Summary(es):	Módulo de Perl Search::Binary
-Summary(fr):	Module Perl Search::Binary
-Summary(it):	Modulo di Perl Search::Binary
-Summary(ja):	Search::Binary Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Search::Binary ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Search::Binary
-Summary(pl):	Modu³ Perla Search::Binary
-Summary(pt):	Módulo de Perl Search::Binary
-Summary(pt_BR):	Módulo Perl Search::Binary
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Search::Binary
-Summary(sv):	Search::Binary Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Search::Binary
-Summary(zh_CN):	Search::Binary Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Search::Binary pro Perl
+Summary(da.UTF-8):   Perlmodul Search::Binary
+Summary(de.UTF-8):   Search::Binary Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Search::Binary
+Summary(fr.UTF-8):   Module Perl Search::Binary
+Summary(it.UTF-8):   Modulo di Perl Search::Binary
+Summary(ja.UTF-8):   Search::Binary Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Search::Binary í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Search::Binary
+Summary(pl.UTF-8):   ModuÅ‚ Perla Search::Binary
+Summary(pt.UTF-8):   MÃ³dulo de Perl Search::Binary
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Search::Binary
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Search::Binary
+Summary(sv.UTF-8):   Search::Binary Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Search::Binary
+Summary(zh_CN.UTF-8):   Search::Binary Perl æ¨¡å—
 Name:		perl-Search-Binary
 Version:	0.95
 Release:	11
@@ -34,7 +34,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Search::Binary - generic binary search.
 
-%description -l pl
+%description -l pl.UTF-8
 Search::Binary - podstawowe wyszukiwanie binarne.
 
 %prep
