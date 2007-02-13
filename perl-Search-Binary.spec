@@ -2,22 +2,22 @@
 %define		pdir	Search
 %define		pnam	Binary
 Summary:	Search::Binary Perl module
-Summary(cs.UTF-8):   Modul Search::Binary pro Perl
-Summary(da.UTF-8):   Perlmodul Search::Binary
-Summary(de.UTF-8):   Search::Binary Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Search::Binary
-Summary(fr.UTF-8):   Module Perl Search::Binary
-Summary(it.UTF-8):   Modulo di Perl Search::Binary
-Summary(ja.UTF-8):   Search::Binary Perl モジュール
-Summary(ko.UTF-8):   Search::Binary 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Search::Binary
-Summary(pl.UTF-8):   Moduł Perla Search::Binary
-Summary(pt.UTF-8):   Módulo de Perl Search::Binary
-Summary(pt_BR.UTF-8):   Módulo Perl Search::Binary
-Summary(ru.UTF-8):   Модуль для Perl Search::Binary
-Summary(sv.UTF-8):   Search::Binary Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Search::Binary
-Summary(zh_CN.UTF-8):   Search::Binary Perl 模块
+Summary(cs.UTF-8):	Modul Search::Binary pro Perl
+Summary(da.UTF-8):	Perlmodul Search::Binary
+Summary(de.UTF-8):	Search::Binary Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Search::Binary
+Summary(fr.UTF-8):	Module Perl Search::Binary
+Summary(it.UTF-8):	Modulo di Perl Search::Binary
+Summary(ja.UTF-8):	Search::Binary Perl モジュール
+Summary(ko.UTF-8):	Search::Binary 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Search::Binary
+Summary(pl.UTF-8):	Moduł Perla Search::Binary
+Summary(pt.UTF-8):	Módulo de Perl Search::Binary
+Summary(pt_BR.UTF-8):	Módulo Perl Search::Binary
+Summary(ru.UTF-8):	Модуль для Perl Search::Binary
+Summary(sv.UTF-8):	Search::Binary Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Search::Binary
+Summary(zh_CN.UTF-8):	Search::Binary Perl 模块
 Name:		perl-Search-Binary
 Version:	0.95
 Release:	11
