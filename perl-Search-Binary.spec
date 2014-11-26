@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Search
 %define		pnam	Binary
+%include	/usr/lib/rpm/macros.perl
 Summary:	Search::Binary Perl module
 Summary(cs.UTF-8):	Modul Search::Binary pro Perl
 Summary(da.UTF-8):	Perlmodul Search::Binary
@@ -26,8 +26,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b75a99c0dedd05cb455686fc547cc78f
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Search-Binary/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
