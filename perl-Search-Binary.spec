@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests		# do not perform "make test"
+#
 %define		pdir	Search
 %define		pnam	Binary
 Summary:	Search::Binary Perl module
@@ -18,16 +22,19 @@ Summary(sv.UTF-8):	Search::Binary Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Search::Binary
 Summary(zh_CN.UTF-8):	Search::Binary Perl 模块
 Name:		perl-Search-Binary
-Version:	0.95
-Release:	13
+Version:	0.99
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b75a99c0dedd05cb455686fc547cc78f
+Source0:	http://www.cpan.org/modules/by-authors/id/X/XA/XAERXESS/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	166ecce30bf71167e51aec81db4a4762
 URL:		http://search.cpan.org/dist/Search-Binary/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Test-Warnings >= 0.012
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -45,6 +52,8 @@ Search::Binary - podstawowe wyszukiwanie binarne.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
@@ -56,6 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc Changes README
 %{perl_vendorlib}/Search
 %{_mandir}/man3/*
